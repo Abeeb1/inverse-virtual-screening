@@ -1,0 +1,1008 @@
+HEADER    HYDROLASE/HYDROLASE INHIBITOR           04-JUL-05   2BVR              
+TITLE     HUMAN THROMBIN COMPLEXED WITH FRAGMENT-BASED SMALL MOLECULES          
+TITLE    2 OCCUPYING THE S1 POCKET                                              
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: ALPHA THROMBIN;                                            
+COMPND   3 CHAIN: H;                                                            
+COMPND   4 FRAGMENT: LARGE SUBUNIT, RESIDUES 364-622;                           
+COMPND   5 SYNONYM: COAGULATION FACTOR II;                                      
+COMPND   6 EC: 3.4.21.5;                                                        
+COMPND   7 ENGINEERED: YES;                                                     
+COMPND   8 MOL_ID: 2;                                                           
+COMPND   9 MOLECULE: HIRUDIN VARIANT-2;                                         
+COMPND  10 CHAIN: I;                                                            
+COMPND  11 ENGINEERED: YES;                                                     
+COMPND  12 MOL_ID: 3;                                                           
+COMPND  13 MOLECULE: ALPHA THROMBIN;                                            
+COMPND  14 CHAIN: L;                                                            
+COMPND  15 FRAGMENT: SMALL SUBUNIT, RESIDUES 328-363;                           
+COMPND  16 SYNONYM: COAGULATION FACTOR II;                                      
+COMPND  17 EC: 3.4.21.5;                                                        
+COMPND  18 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   7 MOL_ID: 2;                                                           
+SOURCE   8 SYNTHETIC: YES;                                                      
+SOURCE   9 ORGANISM_SCIENTIFIC: HIRUDO MEDICINALIS;                             
+SOURCE  10 ORGANISM_COMMON: MEDICINAL LEECH;                                    
+SOURCE  11 ORGANISM_TAXID: 6421;                                                
+SOURCE  12 MOL_ID: 3;                                                           
+SOURCE  13 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE  14 ORGANISM_COMMON: HUMAN;                                              
+SOURCE  15 ORGANISM_TAXID: 9606;                                                
+SOURCE  16 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE  17 EXPRESSION_SYSTEM_TAXID: 562                                         
+KEYWDS    SERINE PROTEASE, COAGULATION, HYDROLASE-HYDROLASE INHIBITOR COMPLEX   
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    T.NEUMANN,H.-D.JUNKER,O.KEIL,K.BURKERT,H.OTTLEBEN,J.GAMER,R.SEKUL,    
+AUTHOR   2 H.DEPPE,A.FEURER,D.TOMANDL,G.METZ                                    
+REVDAT   8   21-DEC-16 2BVR    1       TITLE  COMPND SOURCE DBREF               
+REVDAT   8 2                           SEQADV                                   
+REVDAT   7   13-JUL-11 2BVR    1       VERSN                                    
+REVDAT   6   25-AUG-10 2BVR    1       VERSN                                    
+REVDAT   5   24-FEB-09 2BVR    1       VERSN                                    
+REVDAT   4   15-APR-08 2BVR    1       SOURCE REMARK MODRES ATOM                
+REVDAT   4 2                   1       ANISOU SIGUIJ HETATM MASTER              
+REVDAT   3   06-NOV-07 2BVR    1       JRNL                                     
+REVDAT   2   01-MAY-07 2BVR    1       JRNL                                     
+REVDAT   1   25-OCT-06 2BVR    0                                                
+JRNL        AUTH   T.NEUMANN,H.-D.JUNKER,O.KEIL,K.BURKERT,H.OTTLEBEN,J.GAMER,   
+JRNL        AUTH 2 R.SEKUL,H.DEPPE,A.FEURER,D.TOMANDL,G.METZ                    
+JRNL        TITL   DISCOVERY OF THROMBIN INHIBITOR FRAGMENTS FROM CHEMICAL      
+JRNL        TITL 2 MICROARRAY SCREENING                                         
+JRNL        REF    LETT.DRUG DES.DISCOVERY       V.   2   590 2005              
+JRNL        REFN                   ISSN 1570-1808                               
+JRNL        DOI    10.2174/157018005774717343                                   
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    1.25 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : CNX 2002                                             
+REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
+REMARK   3               : READ,RICE,SIMONSON,WARREN,ACCELRYS                   
+REMARK   3               : SOFTWARE INC.(BADGER,BERARD,KUMAR,SZALMA,            
+REMARK   3               : YIP,DZAKULA)                                         
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.25                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 15.00                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : NULL                           
+REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
+REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : NULL                           
+REMARK   3   NUMBER OF REFLECTIONS             : 97319                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE     (WORKING + TEST SET) : NULL                            
+REMARK   3   R VALUE            (WORKING SET) : 0.210                           
+REMARK   3   FREE R VALUE                     : 0.229                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 10.000                          
+REMARK   3   FREE R VALUE TEST SET COUNT      : 9768                            
+REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : NULL                            
+REMARK   3                                                                      
+REMARK   3  FIT/AGREEMENT OF MODEL WITH ALL DATA.                               
+REMARK   3   R VALUE     (WORKING + TEST SET, NO CUTOFF) : NULL                 
+REMARK   3   R VALUE            (WORKING SET, NO CUTOFF) : NULL                 
+REMARK   3   FREE R VALUE                    (NO CUTOFF) : NULL                 
+REMARK   3   FREE R VALUE TEST SET SIZE   (%, NO CUTOFF) : NULL                 
+REMARK   3   FREE R VALUE TEST SET COUNT     (NO CUTOFF) : NULL                 
+REMARK   3   ESTIMATED ERROR OF FREE R VALUE (NO CUTOFF) : NULL                 
+REMARK   3   TOTAL NUMBER OF REFLECTIONS     (NO CUTOFF) : NULL                 
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : NULL                         
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : NULL                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : NULL                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : NULL                         
+REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : NULL                         
+REMARK   3   BIN R VALUE           (WORKING SET) : NULL                         
+REMARK   3   BIN FREE R VALUE                    : NULL                         
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : NULL                         
+REMARK   3   BIN FREE R VALUE TEST SET COUNT     : NULL                         
+REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : NULL                         
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 2333                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 27                                      
+REMARK   3   SOLVENT ATOMS            : 454                                     
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : NULL                           
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : -0.05700                                             
+REMARK   3    B22 (A**2) : 0.07600                                              
+REMARK   3    B33 (A**2) : -0.02000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.05200                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
+REMARK   3                                                                      
+REMARK   3  ESTIMATED COORDINATE ERROR.                                         
+REMARK   3   ESD FROM LUZZATI PLOT        (A) : NULL                            
+REMARK   3   ESD FROM SIGMAA              (A) : NULL                            
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : NULL                            
+REMARK   3                                                                      
+REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
+REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : NULL                            
+REMARK   3   ESD FROM C-V SIGMAA          (A) : NULL                            
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
+REMARK   3   BOND LENGTHS                 (A) : 0.005                           
+REMARK   3   BOND ANGLES            (DEGREES) : 1.30                            
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : NULL                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : NULL                            
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL MODEL : NULL                                      
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
+REMARK   3   MAIN-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN BOND              (A**2) : NULL  ; NULL                 
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELING.                                              
+REMARK   3   METHOD USED : NULL                                                 
+REMARK   3   KSOL        : 0.44                                                 
+REMARK   3   BSOL        : 55.77                                                
+REMARK   3                                                                      
+REMARK   3  NCS MODEL : NULL                                                    
+REMARK   3                                                                      
+REMARK   3  PARAMETER FILE  1  : PROTEIN_REP_TYS.PARAM                          
+REMARK   3  PARAMETER FILE  2  : INH.PAR                                        
+REMARK   3  PARAMETER FILE  3  : WATER_REP.PARAM                                
+REMARK   3  PARAMETER FILE  4  : ION.PARAM                                      
+REMARK   3  PARAMETER FILE  5  : CIS_PEPTIDE.PARAM                              
+REMARK   3  TOPOLOGY FILE  1   : NULL                                           
+REMARK   3  TOPOLOGY FILE  2   : NULL                                           
+REMARK   3  TOPOLOGY FILE  3   : NULL                                           
+REMARK   3  TOPOLOGY FILE  4   : NULL                                           
+REMARK   3  TOPOLOGY FILE  5   : NULL                                           
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK   4                                                                      
+REMARK   4 2BVR COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 04-JUL-05.                  
+REMARK 100 THE PDBE ID CODE IS EBI-24636.                                       
+REMARK 200                                                                      
+REMARK 200 EXPERIMENTAL DETAILS                                                 
+REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
+REMARK 200  DATE OF DATA COLLECTION        : NULL                               
+REMARK 200  TEMPERATURE           (KELVIN) : 100                                
+REMARK 200  PH                             : NULL                               
+REMARK 200  NUMBER OF CRYSTALS USED        : NULL                               
+REMARK 200                                                                      
+REMARK 200  SYNCHROTRON              (Y/N) : Y                                  
+REMARK 200  RADIATION SOURCE               : SLS                                
+REMARK 200  BEAMLINE                       : NULL                               
+REMARK 200  X-RAY GENERATOR MODEL          : NULL                               
+REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
+REMARK 200  WAVELENGTH OR RANGE        (A) : 0.9791                             
+REMARK 200  MONOCHROMATOR                  : NULL                               
+REMARK 200  OPTICS                         : NULL                               
+REMARK 200                                                                      
+REMARK 200  DETECTOR TYPE                  : NULL                               
+REMARK 200  DETECTOR MANUFACTURER          : NULL                               
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : NULL                               
+REMARK 200  DATA SCALING SOFTWARE          : NULL                               
+REMARK 200                                                                      
+REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 97319                              
+REMARK 200  RESOLUTION RANGE HIGH      (A) : 1.250                              
+REMARK 200  RESOLUTION RANGE LOW       (A) : 15.000                             
+REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 5.900                              
+REMARK 200                                                                      
+REMARK 200 OVERALL.                                                             
+REMARK 200  COMPLETENESS FOR RANGE     (%) : 99.6                               
+REMARK 200  DATA REDUNDANCY                : 2.500                              
+REMARK 200  R MERGE                    (I) : 0.05000                            
+REMARK 200  R SYM                      (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : NULL                               
+REMARK 200                                                                      
+REMARK 200 IN THE HIGHEST RESOLUTION SHELL.                                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE HIGH (A) : NULL                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : NULL                     
+REMARK 200  COMPLETENESS FOR SHELL     (%) : NULL                               
+REMARK 200  DATA REDUNDANCY IN SHELL       : NULL                               
+REMARK 200  R MERGE FOR SHELL          (I) : NULL                               
+REMARK 200  R SYM FOR SHELL            (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR SHELL         : NULL                               
+REMARK 200                                                                      
+REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
+REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: OTHER                        
+REMARK 200 SOFTWARE USED: NULL                                                  
+REMARK 200 STARTING MODEL: NONE                                                 
+REMARK 200                                                                      
+REMARK 200 REMARK: NONE                                                         
+REMARK 280                                                                      
+REMARK 280 CRYSTAL                                                              
+REMARK 280 SOLVENT CONTENT, VS   (%): 52.80                                     
+REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.61                     
+REMARK 280                                                                      
+REMARK 280 CRYSTALLIZATION CONDITIONS: NULL                                     
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
+REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: C 1 2 1                          
+REMARK 290                                                                      
+REMARK 290      SYMOP   SYMMETRY                                                
+REMARK 290     NNNMMM   OPERATOR                                                
+REMARK 290       1555   X,Y,Z                                                   
+REMARK 290       2555   -X,Y,-Z                                                 
+REMARK 290       3555   X+1/2,Y+1/2,Z                                           
+REMARK 290       4555   -X+1/2,Y+1/2,-Z                                         
+REMARK 290                                                                      
+REMARK 290     WHERE NNN -> OPERATOR NUMBER                                     
+REMARK 290           MMM -> TRANSLATION VECTOR                                  
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY TRANSFORMATIONS                            
+REMARK 290 THE FOLLOWING TRANSFORMATIONS OPERATE ON THE ATOM/HETATM             
+REMARK 290 RECORDS IN THIS ENTRY TO PRODUCE CRYSTALLOGRAPHICALLY                
+REMARK 290 RELATED MOLECULES.                                                   
+REMARK 290   SMTRY1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   2 -1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   2  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   2  0.000000  0.000000 -1.000000        0.00000            
+REMARK 290   SMTRY1   3  1.000000  0.000000  0.000000       35.16100            
+REMARK 290   SMTRY2   3  0.000000  1.000000  0.000000       35.85100            
+REMARK 290   SMTRY3   3  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   4 -1.000000  0.000000  0.000000       35.16100            
+REMARK 290   SMTRY2   4  0.000000  1.000000  0.000000       35.85100            
+REMARK 290   SMTRY3   4  0.000000  0.000000 -1.000000        0.00000            
+REMARK 290                                                                      
+REMARK 290 REMARK: NULL                                                         
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TRIMERIC                          
+REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: TRIMERIC                   
+REMARK 350 SOFTWARE USED: PISA                                                  
+REMARK 350 TOTAL BURIED SURFACE AREA: 3900 ANGSTROM**2                          
+REMARK 350 SURFACE AREA OF THE COMPLEX: 13170 ANGSTROM**2                       
+REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -17.8 KCAL/MOL                        
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: H, L, I                               
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 465                                                                      
+REMARK 465 MISSING RESIDUES                                                     
+REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
+REMARK 465 EXPERIMENT. (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 465 IDENTIFIER; SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                
+REMARK 465                                                                      
+REMARK 465   M RES C SSSEQI                                                     
+REMARK 465     GLU H   247                                                      
+REMARK 465     THR L    -5                                                      
+REMARK 465     PHE L    -4                                                      
+REMARK 465     GLY L    -3                                                      
+REMARK 465     SER L    -2                                                      
+REMARK 465     GLY L    -1                                                      
+REMARK 465     GLU L     0A                                                     
+REMARK 465     GLY L    16                                                      
+REMARK 465     ARG L    17                                                      
+REMARK 470                                                                      
+REMARK 470 MISSING ATOM                                                         
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
+REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
+REMARK 470 I=INSERTION CODE):                                                   
+REMARK 470   M RES CSSEQI  ATOMS                                                
+REMARK 470     ARG H  75    CG   CD   NE   CZ   NH1  NH2                        
+REMARK 470     LYS H 149    CG   CD   CE   NZ                                   
+REMARK 470     GLN H 151    CG   CD   OE1  NE2                                  
+REMARK 470     GLY H 246    CA   C    O                                         
+REMARK 470     ASP L  15    CA   C    O    CB   CG   OD1  OD2                   
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500    TYR H  60A      82.29   -155.12                                   
+REMARK 500    ASN H  60G      76.95   -160.56                                   
+REMARK 500    HIS H  71      -60.08   -131.61                                   
+REMARK 500    ILE H  79      -62.03   -126.04                                   
+REMARK 500    GLU H  97A     -84.55   -120.64                                   
+REMARK 500    LYS H 145     -124.55    159.17                                   
+REMARK 500    LYS H 149     -120.85   -116.58                                   
+REMARK 500    SER H 214      -63.23   -107.84                                   
+REMARK 500    PHE L   7      -88.51   -131.28                                   
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 525                                                                      
+REMARK 525 SOLVENT                                                              
+REMARK 525                                                                      
+REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
+REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
+REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
+REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
+REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
+REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
+REMARK 525 NUMBER; I=INSERTION CODE):                                           
+REMARK 525                                                                      
+REMARK 525  M RES CSSEQI                                                        
+REMARK 525    HOH H2001        DISTANCE =  5.31 ANGSTROMS                       
+REMARK 525    HOH H2027        DISTANCE =  5.04 ANGSTROMS                       
+REMARK 525    HOH H2042        DISTANCE =  5.74 ANGSTROMS                       
+REMARK 525    HOH L2053        DISTANCE =  5.09 ANGSTROMS                       
+REMARK 525    HOH L2061        DISTANCE =  6.35 ANGSTROMS                       
+REMARK 800                                                                      
+REMARK 800 SITE                                                                 
+REMARK 800 SITE_IDENTIFIER: AC1                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE 4CP H 1246                
+REMARK 800                                                                      
+REMARK 800 SITE_IDENTIFIER: AC2                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR CHAIN I OF HIRUDIN                
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 1A2C   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF THROMBIN INHIBITED BY AERUGINOSIN298-A FROM A           
+REMARK 900 BLUE-GREEN ALGA                                                      
+REMARK 900 RELATED ID: 1A3B   RELATED DB: PDB                                   
+REMARK 900 COMPLEX OF HUMAN ALPHA-THROMBIN WITH THE BIFUNCTIONAL                
+REMARK 900 BORONATE INHIBITOR BOROLOG1                                          
+REMARK 900 RELATED ID: 1A3E   RELATED DB: PDB                                   
+REMARK 900 COMPLEX OF HUMAN ALPHA-THROMBIN WITH THE BIFUNCTIONAL                
+REMARK 900 BORONATE INHIBITOR BOROLOG2                                          
+REMARK 900 RELATED ID: 1A46   RELATED DB: PDB                                   
+REMARK 900 THROMBIN COMPLEXED WITH HIRUGEN AND A BETA- STRAND MIMETIC           
+REMARK 900 INHIBITOR                                                            
+REMARK 900 RELATED ID: 1A4W   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURES OF THROMBIN WITH THIAZOLE- CONTAINING             
+REMARK 900 INHIBITORS: PROBES OF THE S1' BINDING SITE                           
+REMARK 900 RELATED ID: 1A5G   RELATED DB: PDB                                   
+REMARK 900 HUMAN THROMBIN COMPLEXED WITH NOVEL SYNTHETIC PEPTIDE                
+REMARK 900 MIMETIC INHIBITOR AND HIRUGEN                                        
+REMARK 900 RELATED ID: 1A61   RELATED DB: PDB                                   
+REMARK 900 THROMBIN COMPLEXED WITH A BETA-MIMETIC THIAZOLE-CONTAINING           
+REMARK 900 INHIBITOR                                                            
+REMARK 900 RELATED ID: 1ABI   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH HIRULOG 3                                
+REMARK 900 RELATED ID: 1ABJ   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH D-PHE-PRO-ARG                            
+REMARK 900 CHLOROMETHYLKETONE (PPACK) WITH CHLOROMETHYLKETONE REPLACED          
+REMARK 900 BY A METHYLENE GROUP                                                 
+REMARK 900 RELATED ID: 1AD8   RELATED DB: PDB                                   
+REMARK 900 COMPLEX OF THROMBIN WITH AND INHIBITOR CONTAINING A NOVEL            
+REMARK 900 P1 MOIETY                                                            
+REMARK 900 RELATED ID: 1AE8   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN INHIBITION BY EOC-D- PHE-PRO-AZALYS-ONP         
+REMARK 900 RELATED ID: 1AFE   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN INHIBITION BY CBZ-PRO- AZALYS-ONP               
+REMARK 900 RELATED ID: 1AHT   RELATED DB: PDB                                   
+REMARK 900 MOL_ID: 1; MOLECULE: ALPHA-THROMBIN; CHAIN: L, H; EC:                
+REMARK 900 3.4.21.5; MOL_ID: 2; MOLECULE: HIRUGEN; CHAIN: I;                    
+REMARK 900 HETEROGEN: P- AMIDINO-PHENYL-PYRUVATE                                
+REMARK 900 RELATED ID: 1AI8   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN TERNARY COMPLEX WITH THE EXOSITE                
+REMARK 900 INHIBITOR HIRUGEN AND ACTIVE SITE INHIBITOR PHCH2OCO-D-DPA-          
+REMARK 900 PRO-BOROMPG                                                          
+REMARK 900 RELATED ID: 1AIX   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN TERNARY COMPLEX WITH EXOSITE INHIBITOR          
+REMARK 900 HIRUGEN AND ACTIVE SITE INHIBITOR PHCH2OCO-D-DPA-PRO-BOROVAL         
+REMARK 900 RELATED ID: 1AWF   RELATED DB: PDB                                   
+REMARK 900 NOVEL COVALENT THROMBIN INHIBITOR FROM PLANT EXTRACT                 
+REMARK 900 RELATED ID: 1AWH   RELATED DB: PDB                                   
+REMARK 900 NOVEL COVALENT THROMBIN INHIBITOR FROM PLANT EXTRACT                 
+REMARK 900 RELATED ID: 1AY6   RELATED DB: PDB                                   
+REMARK 900 THROMBIN INHIBITOR FROM THEONALLA, CYCLOTHEANAMIDE-BASED             
+REMARK 900 MACROCYCLIC TRIPEPTIDE MOTIF                                         
+REMARK 900 RELATED ID: 1B5G   RELATED DB: PDB                                   
+REMARK 900 HUMAN THROMBIN COMPLEXED WITH NOVEL SYNTHETIC PEPTIDE                
+REMARK 900 MIMETIC INHIBITOR AND HIRUGEN                                        
+REMARK 900 RELATED ID: 1B7X   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF HUMAN ALPHA-THROMBIN Y225I MUTANT BOUND TO D-           
+REMARK 900 PHE-PRO-ARG- CHLOROMETHYLKETONE                                      
+REMARK 900 RELATED ID: 1BA8   RELATED DB: PDB                                   
+REMARK 900 THROMBIN INHIBITOR WITH A RIGID TRIPEPTIDYL ALDEHYDES                
+REMARK 900 RELATED ID: 1BB0   RELATED DB: PDB                                   
+REMARK 900 THROMBIN INHIBITORS WITH RIGID TRIPEPTIDYL ALDEHYDES                 
+REMARK 900 RELATED ID: 1BCU   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEXED WITH HIRUGEN AND PROFLAVIN                  
+REMARK 900 RELATED ID: 1BHX   RELATED DB: PDB                                   
+REMARK 900 X-RAY STRUCTURE OF THE COMPLEX OF HUMAN ALPHA THROMBIN WITH          
+REMARK 900 THE INHIBITOR SDZ 229- 357                                           
+REMARK 900 RELATED ID: 1BMM   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN COMPLEXED WITH [S-(R, R)]-4-                    
+REMARK 900 [(AMINOIMINOMETHYL)AMINO]-N-[[1-[3- HYDROXY-2-[(2-                   
+REMARK 900 NAPHTHALENYLSULFONYL)AMINO]-1- OXOPROPYL]-2-PYRROLIDINYL]            
+REMARK 900 METHYL]BUTANAMIDE (BMS-186282)                                       
+REMARK 900 RELATED ID: 1BMN   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN COMPLEXED WITH [S-(R, R)]-1-                    
+REMARK 900 (AMINOIMINOMETHYL)-N-[[1-[N-[(2- NAPHTHALENYLSULFONYL)-L-            
+REMARK 900 SERYL]-PYRROLIDINYL] METHYL]-3-PIPERIDENECARBOXAMIDE (BMS-           
+REMARK 900 189090)                                                              
+REMARK 900 RELATED ID: 1BTH   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF THROMBIN COMPLEXED WITH BOVINE PANCREATIC               
+REMARK 900 TRYPSIN INHIBITOR                                                    
+REMARK 900 RELATED ID: 1C1U   RELATED DB: PDB                                   
+REMARK 900 RECRUITING ZINC TO MEDIATE POTENT, SPECIFIC INHIBITION OF            
+REMARK 900 SERINE PROTEASES                                                     
+REMARK 900 RELATED ID: 1C1V   RELATED DB: PDB                                   
+REMARK 900 RECRUITING ZINC TO MEDIATE POTENT, SPECIFIC INHIBITION OF            
+REMARK 900 SERINE PROTEASES                                                     
+REMARK 900 RELATED ID: 1C1W   RELATED DB: PDB                                   
+REMARK 900 RECRUITING ZINC TO MEDIATE POTENT, SPECIFIC INHIBITION OF            
+REMARK 900 SERINE PROTEASES                                                     
+REMARK 900 RELATED ID: 1C4U   RELATED DB: PDB                                   
+REMARK 900 SELECTIVE NON ELECTROPHILIC THROMBIN INHIBITORS WITH                 
+REMARK 900 CYCLOHEXYL MOIETIES.                                                 
+REMARK 900 RELATED ID: 1C4V   RELATED DB: PDB                                   
+REMARK 900 SELECTIVE NON ELECTROPHILIC THROMBIN INHIBITORS WITH                 
+REMARK 900 CYCLOHEXYL MOIETIES.                                                 
+REMARK 900 RELATED ID: 1C4Y   RELATED DB: PDB                                   
+REMARK 900 SELECTIVE NON-ELECTROPHILIC THROMBIN INHIBITORS                      
+REMARK 900 RELATED ID: 1C5L   RELATED DB: PDB                                   
+REMARK 900 STRUCTURAL BASIS FOR SELECTIVITY OF A SMALL MOLECULE, S1-            
+REMARK 900 BINDING, SUB- MICROMOLAR INHIBITOR OF UROKINASE TYPE                 
+REMARK 900 PLASMINOGEN ACTIVATOR                                                
+REMARK 900 RELATED ID: 1C5N   RELATED DB: PDB                                   
+REMARK 900 STRUCTURAL BASIS FOR SELECTIVITY OF A SMALL MOLECULE, S1-            
+REMARK 900 BINDING, SUB- MICROMOLAR INHIBITOR OF UROKINASE TYPE                 
+REMARK 900 PLASMINOGEN ACTIVATOR                                                
+REMARK 900 RELATED ID: 1C5O   RELATED DB: PDB                                   
+REMARK 900 STRUCTURAL BASIS FOR SELECTIVITY OF A SMALL MOLECULE, S1-            
+REMARK 900 BINDING, SUB- MICROMOLAR INHIBITOR OF UROKINASE TYPE                 
+REMARK 900 PLASMINOGEN ACTIVATOR                                                
+REMARK 900 RELATED ID: 1CA8   RELATED DB: PDB                                   
+REMARK 900 THROMBIN INHIBITORS WITH RIGID TRIPEPTIDYL ALDEHYDES                 
+REMARK 900 RELATED ID: 1D3D   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN ALPHA THROMBIN IN COMPLEX WITH            
+REMARK 900 BENZOTHIOPHENE INHIBITOR 4                                           
+REMARK 900 RELATED ID: 1D3P   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN APLHA-THROMBIN IN COMPLEX WITH            
+REMARK 900 BENZO[B]THIOPHENE INHIBITOR 3                                        
+REMARK 900 RELATED ID: 1D3Q   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN ALPHA THROMBIN IN COMPLEX WITH            
+REMARK 900 BENZO[B]THIOPHENE INHIBITOR 2                                        
+REMARK 900 RELATED ID: 1D3T   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN ALPHA THROMBIN IN COMPLEX WITH            
+REMARK 900 BENZO[B]THIOPHENE INHIBITOR 1                                        
+REMARK 900 RELATED ID: 1D4P   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN ALPHA THROMBIN IN COMPLEX WITH            
+REMARK 900 5- AMIDINOINDOLE-4- BENZYLPIPERIDINE INHIBITOR                       
+REMARK 900 RELATED ID: 1D6W   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF THROMBIN COMPLEXED WITH SELECTIVE NON-                  
+REMARK 900 ELECTROPHILIC INHIBITORS HAVING CYCLOHEXYL MOIETIES AT P1            
+REMARK 900 RELATED ID: 1D9I   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF THROMBIN COMPLEXED WITH SELECTIVE NON-                  
+REMARK 900 ELECTOPHILIC INHIBITORS HAVING CYCLOHEXYL MOIETIES AT P1             
+REMARK 900 RELATED ID: 1DE7   RELATED DB: PDB                                   
+REMARK 900 INTERACTION OF FACTOR XIII ACTIVATION PEPTIDE WITH ALPHA-            
+REMARK 900 THROMBIN: CRYSTAL STRUCTURE OF THE ENZYME-SUBSTRATE COMPLEX          
+REMARK 900 RELATED ID: 1DIT   RELATED DB: PDB                                   
+REMARK 900 COMPLEX OF A DIVALENT INHIBITOR WITH THROMBIN                        
+REMARK 900 RELATED ID: 1DM4   RELATED DB: PDB                                   
+REMARK 900 SER195ALA MUTANT OF HUMAN THROMBIN COMPLEXED WITH                    
+REMARK 900 FIBRINOPEPTIDE A (7-16)                                              
+REMARK 900 RELATED ID: 1DOJ   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN ALPHA-THROMBIN* RWJ-51438                 
+REMARK 900 COMPLEXAT 1.7 A                                                      
+REMARK 900 RELATED ID: 1DWB   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH (DES-AMINO ASP 55) HIRUDIN               
+REMARK 900 (RESIDUES 55 - 65) AND BENZAMIDINE                                   
+REMARK 900 RELATED ID: 1DWC   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH (DES-AMINO ASP 55) HIRUDIN               
+REMARK 900 (RESIDUES 55 - 65) AND MD-805 (ARGATROBAN)                           
+REMARK 900 RELATED ID: 1DWD   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH (DES-AMINO ASP 55) HIRUDIN               
+REMARK 900 (RESIDUES 55 - 65) AND NAPAP                                         
+REMARK 900 RELATED ID: 1DWE   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH (DES-AMINO ASP 55) HIRUDIN               
+REMARK 900 (RESIDUES 55 - 65) AND D-PHE- PRO-ARG-CHLOROMETHYLKETONE             
+REMARK 900 (PPACK) WITH CHLOROMETHYLKETONE REPLACED BY A METHYLENE              
+REMARK 900 GROUP                                                                
+REMARK 900 RELATED ID: 1DX5   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE THROMBIN- THROMBOMODULIN COMPLEX            
+REMARK 900 RELATED ID: 1E0F   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE HUMAN ALPHA- THROMBIN-HAEMADIN              
+REMARK 900 COMPLEX: AN EXOSITE II- BINDING INHIBITOR                            
+REMARK 900 RELATED ID: 1EB1   RELATED DB: PDB                                   
+REMARK 900 COMPLEX STRUCTURE OF HUMAN THROMBIN WITH N- METHYL-ARGININE          
+REMARK 900 INHIBITOR                                                            
+REMARK 900 RELATED ID: 1EOJ   RELATED DB: PDB                                   
+REMARK 900 DESIGN OF P1' AND P3' RESIDUES OF TRIVALENT THROMBIN                 
+REMARK 900 INHIBITORS AND THEIR CRYSTAL STRUCTURES                              
+REMARK 900 RELATED ID: 1EOL   RELATED DB: PDB                                   
+REMARK 900 DESIGN OF P1' AND P3' RESIDUES OF TRIVALENT THROMBIN                 
+REMARK 900 INHIBITORS AND THEIR CRYSTAL STRUCTURES                              
+REMARK 900 RELATED ID: 1FPC   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN TERNARY COMPLEX WITH EXOSITE INHIBITOR                
+REMARK 900 HIRUGEN AND ACTIVE SITE INHIBITOR DANSYLARGININE N-(3-ETHYL          
+REMARK 900 -1,5-PENTANEDIYL) AMIDE (DAPA)                                       
+REMARK 900 RELATED ID: 1FPH   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN TERNARY COMPLEX WITH HIRUDIN AND                      
+REMARK 900 FIBRINOPEPTIDE A                                                     
+REMARK 900 RELATED ID: 1G30   RELATED DB: PDB                                   
+REMARK 900 THROMBIN INHIBITOR COMPLEX                                           
+REMARK 900 RELATED ID: 1G32   RELATED DB: PDB                                   
+REMARK 900 THROMBIN INHIBITOR COMPLEX                                           
+REMARK 900 RELATED ID: 1G37   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN ALPHA-THROMBIN COMPLEXED WITHBCH          
+REMARK 900 -10556 AND EXOSITE-DIRECTED PEPTIDE                                  
+REMARK 900 RELATED ID: 1GHV   RELATED DB: PDB                                   
+REMARK 900 A NOVEL SERINE PROTEASE INHIBITION MOTIF INVOLVING A MULTI-          
+REMARK 900 CENTERED SHORT HYDROGEN BONDING NETWORK AT THE ACTIVE SITE           
+REMARK 900 RELATED ID: 1GHW   RELATED DB: PDB                                   
+REMARK 900 A NOVEL SERINE PROTEASE INHIBITION MOTIF INVOLVING A MULTI-          
+REMARK 900 CENTERED SHORT HYDROGEN BONDING NETWORK AT THE ACTIVE SITE           
+REMARK 900 RELATED ID: 1GHX   RELATED DB: PDB                                   
+REMARK 900 A NOVEL SERINE PROTEASE INHIBITION MOTIF INVOLVING A MULTI-          
+REMARK 900 CENTERED SHORT HYDROGEN BONDING NETWORK AT THE ACTIVE SITE           
+REMARK 900 RELATED ID: 1GHY   RELATED DB: PDB                                   
+REMARK 900 A NOVEL SERINE PROTEASE INHIBITION MOTIF INVOLVING A MULTI-          
+REMARK 900 CENTERED SHORT HYDROGEN BONDING NETWORK AT THE ACTIVE SITE           
+REMARK 900 RELATED ID: 1GJ4   RELATED DB: PDB                                   
+REMARK 900 SELECTIVITY AT S1, H2O DISPLACEMENT, UPA, TPA,SER190/ALA190          
+REMARK 900 PROTEASE, STRUCTURE-BASED DRUG DESIGN                                
+REMARK 900 RELATED ID: 1GJ5   RELATED DB: PDB                                   
+REMARK 900 SELECTIVITY AT S1, H2O DISPLACEMENT, UPA, TPA,SER190/ALA190          
+REMARK 900 PROTEASE, STRUCTURE-BASED DRUG DESIGN                                
+REMARK 900 RELATED ID: 1H8D   RELATED DB: PDB                                   
+REMARK 900 X-RAY STRUCTURE OF THE HUMAN ALPHA- THROMBIN COMPLEX WITH A          
+REMARK 900 TRIPEPTIDE PHOSPHONATE INHIBITOR.                                    
+REMARK 900 RELATED ID: 1H8I   RELATED DB: PDB                                   
+REMARK 900 X-RAY CRYSTAL STRUCTURE OF HUMAN ALPHA- THROMBIN WITH A              
+REMARK 900 TRIPEPTIDE PHOSPHONATE INHIBITOR.                                    
+REMARK 900 RELATED ID: 1HAG   RELATED DB: PDB                                   
+REMARK 900 PRETHROMBIN2 COMPLEXED WITH HIRUGEN (N- ACETYLHIRUDIN 53 -           
+REMARK 900 64 WITH SULFATO-TYR 63)                                              
+REMARK 900 RELATED ID: 1HAH   RELATED DB: PDB                                   
+REMARK 900 ALPHA THROMBIN COMPLEXED WITH HIRUGEN (N- ACETYLHIRUDIN 53           
+REMARK 900 - 64 WITH SULFATO-TYR 63)                                            
+REMARK 900 RELATED ID: 1HAI   RELATED DB: PDB                                   
+REMARK 900 ALPHA THROMBIN COMPLEXED WITH D-PHE-PRO- ARG-                        
+REMARK 900 CHLOROMETHYLKETONE (PPACK) WITH CHLOROMETHYLKETONE REPLACED          
+REMARK 900 BY A METHYLENE GROUP                                                 
+REMARK 900 RELATED ID: 1HAO   RELATED DB: PDB                                   
+REMARK 900 COMPLEX OF HUMAN ALPHA-THROMBIN WITH A 15MER                         
+REMARK 900 OLIGONUCLEOTIDE GGTTGGTGTGGTTGG (BASED ON NMR MODEL OF               
+REMARK 900 DEOXYRIBONUCLEIC ACID)                                               
+REMARK 900 RELATED ID: 1HAP   RELATED DB: PDB                                   
+REMARK 900 COMPLEX OF HUMAN ALPHA-THROMBIN WITH A 15MER                         
+REMARK 900 OLIGONUCLEOTIDE GGTTGGTGTGGTTGG (BASED ON X-RAY MODEL OF             
+REMARK 900 DEOXYRIBONUCLEIC ACID)                                               
+REMARK 900 RELATED ID: 1HBT   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN COMPLEXED WITH A PEPTIDYL PYRIDINIUM            
+REMARK 900 METHYL KETONE CONTAINING BIVALENT INHIBITOR                          
+REMARK 900 RELATED ID: 1HDT   RELATED DB: PDB                                   
+REMARK 900 RELATED ID: 1HGT   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH HIRUGEN                                  
+REMARK 900 RELATED ID: 1HLT   RELATED DB: PDB                                   
+REMARK 900 ALPHA THROMBIN COMPLEXED WITH THROMBOMODULIN                         
+REMARK 900 (NONDECAPEPTIDE) AND D-PHE-PRO-ARG- CHLOROMETHYLKETONE               
+REMARK 900 (PPACK) WITH CHLOROMETHYLKETONE REPLACED BY A METHYLENE              
+REMARK 900 GROUP                                                                
+REMARK 900 RELATED ID: 1HUT   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEXED WITH DEOXYRIBONUCLEIC ACID (5'-             
+REMARK 900 D(GPGPTPTPGPGPTPGPTPGPGPTPTPGPG)-3') AND D-PHE-PRO-ARG-              
+REMARK 900 CHLOROMETHYLKETONE (PPACK ) WITH CHLOROMETHYLKETONE                  
+REMARK 900 REPLACED BY A METHYLENE GROUP                                        
+REMARK 900 RELATED ID: 1HXE   RELATED DB: PDB                                   
+REMARK 900 SERINE PROTEASE                                                      
+REMARK 900 RELATED ID: 1HXF   RELATED DB: PDB                                   
+REMARK 900 HUMAN THROMBIN COMPLEX WITH HIRUDIN VARIANT                          
+REMARK 900 RELATED ID: 1IHS   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH HIRUTONIN-2                              
+REMARK 900 RELATED ID: 1IHT   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH HIRUTONIN-6                              
+REMARK 900 RELATED ID: 1JMO   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE HEPARIN COFACTOR II -S195A                  
+REMARK 900 THROMBINCOMPLEX                                                      
+REMARK 900 RELATED ID: 1JOU   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF NATIVE S195A THROMBIN WITH                      
+REMARK 900 ANUNOCCUPIED ACTIVE SITE                                             
+REMARK 900 RELATED ID: 1JWT   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THROMBIN IN COMPLEX WITH A                      
+REMARK 900 NOVELBICYCLIC LACTAM INHIBITOR                                       
+REMARK 900 RELATED ID: 1K21   RELATED DB: PDB                                   
+REMARK 900 HUMAN THROMBIN-INHIBITOR COMPLEX                                     
+REMARK 900 RELATED ID: 1K22   RELATED DB: PDB                                   
+REMARK 900 HUMAN THROMBIN-INHIBITOR COMPLEX                                     
+REMARK 900 RELATED ID: 1KTS   RELATED DB: PDB                                   
+REMARK 900 THROMBIN INHIBITOR COMPLEX                                           
+REMARK 900 RELATED ID: 1KTT   RELATED DB: PDB                                   
+REMARK 900 THROMBIN INHIBITOR COMPLEX                                           
+REMARK 900 RELATED ID: 1LHC   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN COMPLEXED WITH AC-(D) PHE-PRO-BOROARG-          
+REMARK 900 OH                                                                   
+REMARK 900 RELATED ID: 1LHD   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN COMPLEXED WITH AC-(D) PHE-PRO-BOROLYS-          
+REMARK 900 OH                                                                   
+REMARK 900 RELATED ID: 1LHE   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN COMPLEXED WITH AC-(D) PHE-PRO-BORO-N-           
+REMARK 900 BUTYL-AMIDINO-GLYCINE-OH                                             
+REMARK 900 RELATED ID: 1LHF   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN COMPLEXED WITH AC-(D) PHE-PRO-BORO-             
+REMARK 900 HOMOLYS-OH                                                           
+REMARK 900 RELATED ID: 1LHG   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN COMPLEXED WITH AC-(D) PHE-PRO-                  
+REMARK 900 BOROORNITHINE-OH                                                     
+REMARK 900 RELATED ID: 1MH0   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE ANTICOAGULANT SLOW FORM OF THROMBIN         
+REMARK 900 RELATED ID: 1MU6   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THROMBIN IN COMPLEX WITH L-378,622              
+REMARK 900 RELATED ID: 1MU8   RELATED DB: PDB                                   
+REMARK 900 THROMBIN-HIRUGEN_L-378,650                                           
+REMARK 900 RELATED ID: 1MUE   RELATED DB: PDB                                   
+REMARK 900 THROMBIN-HIRUGEN-L405,426                                            
+REMARK 900 RELATED ID: 1NM6   RELATED DB: PDB                                   
+REMARK 900 THROMBIN IN COMPLEX WITH SELECTIVE MACROCYCLIC INHIBITOR             
+REMARK 900 AT1.8A                                                               
+REMARK 900 RELATED ID: 1NO9   RELATED DB: PDB                                   
+REMARK 900 DESIGN OF WEAKLY BASIC THROMBIN INHIBITORS                           
+REMARK 900 INCORPORATINGNOVEL P1 BINDING FUNCTIONS: MOLECULAR AND X-            
+REMARK 900 RAYCRYSTALLOGRAPHIC STUDIES.                                         
+REMARK 900 RELATED ID: 1NRN   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN NON-COVALENTLY COMPLEXED WITH RECEPTOR BASED          
+REMARK 900 PEPTIDE NRS                                                          
+REMARK 900 RELATED ID: 1NRO   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN NON-COVALENTLY COMPLEXED WITH RECEPTOR BASED          
+REMARK 900 PEPTIDE NRP                                                          
+REMARK 900 RELATED ID: 1NRP   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN NON-COVALENTLY COMPLEXED WITH RECEPTOR BASED          
+REMARK 900 PEPTIDE NR'S                                                         
+REMARK 900 RELATED ID: 1NRQ   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN NON-COVALENTLY COMPLEXED WITH RECEPTOR BASED          
+REMARK 900 PEPTIDE D-FPR'S                                                      
+REMARK 900 RELATED ID: 1NRR   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN NON-COVALENTLY COMPLEXED WITH RECEPTOR BASED          
+REMARK 900 PEPTIDE XA AND D-PHE-PRO- ARG CHLOROMETHYLKETONE (PPACK)             
+REMARK 900 WITH CHLOROMETHYLKETONE REPLACED BY A METHYLENE GROUP                
+REMARK 900 RELATED ID: 1NRS   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN NON-COVALENTLY COMPLEXED WITH RECEPTOR BASED          
+REMARK 900 PEPTIDE NRP (CLEAVED, FIRST FOUR RESIDUES ONLY) AND HIRUGEN          
+REMARK 900 RELATED ID: 1NT1   RELATED DB: PDB                                   
+REMARK 900 THROMBIN IN COMPLEX WITH SELECTIVE MACROCYCLIC INHIBITOR             
+REMARK 900 RELATED ID: 1NU7   RELATED DB: PDB                                   
+REMARK 900 STAPHYLOCOAGULASE-THROMBIN COMPLEX                                   
+REMARK 900 RELATED ID: 1NU9   RELATED DB: PDB                                   
+REMARK 900 STAPHYLOCOAGULASE-PRETHROMBIN-2 COMPLEX                              
+REMARK 900 RELATED ID: 1NY2   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA THROMBIN INHIBITED BY RPPGF AND HIRUGEN                  
+REMARK 900 RELATED ID: 1NZQ   RELATED DB: PDB                                   
+REMARK 900 D-PHE-PRO-ARG-TYPE THROMBIN INHIBITOR                                
+REMARK 900 RELATED ID: 1O0D   RELATED DB: PDB                                   
+REMARK 900 HUMAN THROMBIN COMPLEXED WITH A D-PHE-PRO -ARG-                      
+REMARK 900 TYPEINHIBITOR AND A C-TERMINAL HIRUDIN DERIVED EXO-                  
+REMARK 900 SITEINHIBITOR                                                        
+REMARK 900 RELATED ID: 1O2G   RELATED DB: PDB                                   
+REMARK 900 ELABORATE MANIFOLD OF SHORT HYDROGEN BOND ARRAYS                     
+REMARK 900 MEDIATINGBINDING OF ACTIVE SITE- DIRECTED SERINE PROTEASE            
+REMARK 900 INHIBITORS                                                           
+REMARK 900 RELATED ID: 1O5G   RELATED DB: PDB                                   
+REMARK 900 DISSECTING AND DESIGNING INHIBITOR SELECTIVITY                       
+REMARK 900 DETERMINANTSAT THE S1 SITE USING AN ARTIFICIAL ALA190                
+REMARK 900 PROTEASE (ALA190UPA)                                                 
+REMARK 900 RELATED ID: 1OOK   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE COMPLEX OF PLATELET RECEPTOR GPIB-          
+REMARK 900 ALPHA AND HUMAN ALPHA- THROMBIN                                      
+REMARK 900 RELATED ID: 1OYT   RELATED DB: PDB                                   
+REMARK 900 COMPLEX OF RECOMBINANT HUMAN THROMBIN WITH A                         
+REMARK 900 DESIGNEDFLUORINATED INHIBITOR                                        
+REMARK 900 RELATED ID: 1P8V   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE COMPLEX OF PLATELET RECEPTOR GPIB-          
+REMARK 900 ALPHA AND ALPHA-THROMBIN AT 2.6A                                     
+REMARK 900 RELATED ID: 1PPB   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH D-PHE-PRO-ARG                            
+REMARK 900 CHLOROMETHYLKETONE (PPACK) WITH CHLOROMETHYLKETONE REPLACED          
+REMARK 900 BY A METHYLENE GROUP                                                 
+REMARK 900 RELATED ID: 1QBV   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THROMBIN COMPLEXED WITH AN GUANIDINE-           
+REMARK 900 MIMETIC INHIBITOR                                                    
+REMARK 900 RELATED ID: 1QHR   RELATED DB: PDB                                   
+REMARK 900 NOVEL COVALENT ACTIVE SITE THROMBIN INHIBITORS                       
+REMARK 900 RELATED ID: 1QJ1   RELATED DB: PDB                                   
+REMARK 900 NOVEL COVALENT ACTIVE SITE THROMBIN INHIBITORS                       
+REMARK 900 RELATED ID: 1QJ6   RELATED DB: PDB                                   
+REMARK 900 NOVEL COVALENT ACTIVE SITE THROMBIN INHIBITORS                       
+REMARK 900 RELATED ID: 1QJ7   RELATED DB: PDB                                   
+REMARK 900 NOVEL COVALENT ACTIVE SITE THROMBIN INHIBITORS                       
+REMARK 900 RELATED ID: 1QUR   RELATED DB: PDB                                   
+REMARK 900 HUMAN ALPHA-THROMBIN IN COMPLEX WITH BIVALENT, BENZAMIDINE-          
+REMARK 900 BASED SYNTHETIC INHIBITOR                                            
+REMARK 900 RELATED ID: 1QVH   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE COMPLEX BETWEEN THROMBIN AND                
+REMARK 900 THECENTRAL "E" REGION OF FIBRIN                                      
+REMARK 900 RELATED ID: 1RD3   RELATED DB: PDB                                   
+REMARK 900 2.5A STRUCTURE OF ANTICOAGULANT THROMBIN VARIANT E217K               
+REMARK 900 RELATED ID: 1RIW   RELATED DB: PDB                                   
+REMARK 900 THROMBIN IN COMPLEX WITH NATURAL PRODUCT INHIBITOROSCILLARIN         
+REMARK 900 RELATED ID: 1SB1   RELATED DB: PDB                                   
+REMARK 900 NOVEL NON-COVALENT THROMBIN INHIBITORS INCORPORATING P1 4,           
+REMARK 900 5,6,7- TETRAHYDROBENZOTHIAZOLE ARGININE SIDE CHAIN MIMETICS          
+REMARK 900 RELATED ID: 1SFQ   RELATED DB: PDB                                   
+REMARK 900 FAST FORM OF THROMBIN MUTANT R(77A)A BOUND TO PPACK                  
+REMARK 900 RELATED ID: 1SG8   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE PROCOAGULANT FAST FORM OF THROMBIN          
+REMARK 900 RELATED ID: 1SGI   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE ANTICOAGULANT SLOW FORM OF THROMBIN         
+REMARK 900 RELATED ID: 1SHH   RELATED DB: PDB                                   
+REMARK 900 SLOW FORM OF THROMBIN BOUND WITH PPACK                               
+REMARK 900 RELATED ID: 1SL3   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTUE OF THROMBIN IN COMPLEX WITH A POTENT                
+REMARK 900 P1HETEROCYCLE-ARYL BASED INHIBITOR                                   
+REMARK 900 RELATED ID: 1SR5   RELATED DB: PDB                                   
+REMARK 900 ANTITHROMBIN-ANHYDROTHROMBIN-HEPARIN TERNARY                         
+REMARK 900 COMPLEXSTRUCTURE                                                     
+REMARK 900 RELATED ID: 1T4U   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE ANALYSIS OF A NOVEL OXYGUANIDINE BOUND             
+REMARK 900 TOTHROMBIN                                                           
+REMARK 900 RELATED ID: 1T4V   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE ANALYSIS OF A NOVEL OXYGUANIDINE BOUND             
+REMARK 900 TOTHROMBIN                                                           
+REMARK 900 RELATED ID: 1TA2   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THROMBIN IN COMPLEX WITH COMPOUND 1             
+REMARK 900 RELATED ID: 1TA6   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THROMBIN IN COMPLEX WITH COMPOUND 14B           
+REMARK 900 RELATED ID: 1TB6   RELATED DB: PDB                                   
+REMARK 900 2.5A CRYSTAL STRUCTURE OF THE ANTITHROMBIN- THROMBIN-                
+REMARK 900 HEPARINTERNARY COMPLEX                                               
+REMARK 900 RELATED ID: 1TBZ   RELATED DB: PDB                                   
+REMARK 900 HUMAN THROMBIN WITH ACTIVE SITE N-METHYL-D PHENYLALANYL-N-           
+REMARK 900 [5-(AMINOIMINOMETHYL)AMINO]- 1-{{BENZOTHIAZOLYL)CARBONYL]            
+REMARK 900 BUTYL]-L- PROLINAMIDE TRIFLUROACETATE AND EXOSITE-HIRUGEN            
+REMARK 900 RELATED ID: 1THP   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF HUMAN ALPHA-THROMBIN Y225P MUTANT BOUND TO D-           
+REMARK 900 PHE-PRO-ARG- CHLOROMETHYLKETONE                                      
+REMARK 900 RELATED ID: 1THR   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH HIRULLIN                                 
+REMARK 900 RELATED ID: 1THS   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH MDL-28050                                
+REMARK 900 RELATED ID: 1TMB   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH HIRUGEN AND CYCLOTHEONAMIDE A            
+REMARK 900 RELATED ID: 1TMT   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEXED WITH CGP 50,856 (D-PHE-PRO-ARG-PRO          
+REMARK 900 -GLY-GLY-GLY-GLY FOLLOWED BY RESIDUES 53 - 65 OF HIRUDIN,            
+REMARK 900 CLEAVED AFTER ARG I 3)                                               
+REMARK 900 RELATED ID: 1TMU   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN TERNARY COMPLEX WITH HIRUDIN (C-TERMINAL              
+REMARK 900 FRAGMENT, RESIDUES 55 - 65) AND PPACK (D-PHE-PRO-ARG-                
+REMARK 900 CHLOROMETHYLKETONE)                                                  
+REMARK 900 RELATED ID: 1TOM   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEXED WITH HIRUGEN                                
+REMARK 900 RELATED ID: 1TQ0   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE POTENT ANTICOAGULANT                        
+REMARK 900 THROMBINMUTANT W215A/E217A IN FREE FORM                              
+REMARK 900 RELATED ID: 1TQ7   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE ANTICOAGULANT THROMBIN                      
+REMARK 900 MUTANTW215A/E217A BOUND TO PPACK                                     
+REMARK 900 RELATED ID: 1TWX   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THE THROMBIN MUTANT D221A/D222K                 
+REMARK 900 RELATED ID: 1UMA   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN (HIRUGEN) COMPLEXED WITH NA-(N,N-                     
+REMARK 900 DIMETHYLCARBAMOYL)-ALPHA-AZALYSINE                                   
+REMARK 900 RELATED ID: 1UVS   RELATED DB: PDB                                   
+REMARK 900 BOVINE THROMBIN--BM51.1011 COMPLEX                                   
+REMARK 900 RELATED ID: 1VR1   RELATED DB: PDB                                   
+REMARK 900 SPECIFITY FOR PLASMINOGEN ACTIVATOR INHIBITOR- 1                     
+REMARK 900 RELATED ID: 1VZQ   RELATED DB: PDB                                   
+REMARK 900 COMPLEX OF THROMBIN WITH DESIGNED INHIBITOR 7165                     
+REMARK 900 RELATED ID: 1W7G   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH SULFATED HIRUDIN (RESIDUES 54-           
+REMARK 900 65) AND L-ARGININE TEMPLATE INHIBITOR CS107                          
+REMARK 900 RELATED ID: 1WAY   RELATED DB: PDB                                   
+REMARK 900 ACTIVE SITE THROMBIN INHIBITORS                                      
+REMARK 900 RELATED ID: 1WBG   RELATED DB: PDB                                   
+REMARK 900 ACTIVE SITE THROMBIN INHIBITORS                                      
+REMARK 900 RELATED ID: 1XM1   RELATED DB: PDB                                   
+REMARK 900 NONBASIC THROMBIN INHIBITOR COMPLEX                                  
+REMARK 900 RELATED ID: 1XMN   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF THROMBIN BOUND TO HEPARIN                       
+REMARK 900 RELATED ID: 1ZRB   RELATED DB: PDB                                   
+REMARK 900 THROMBIN IN COMPLEX WITH AN AZAFLUORENYL INHIBITOR 23B               
+REMARK 900 RELATED ID: 2HGT   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH HIRULOG I (CLEAVED BETWEEN ARG           
+REMARK 900 3 AND PRO 4)                                                         
+REMARK 900 RELATED ID: 2HNT   RELATED DB: PDB                                   
+REMARK 900 GAMMA-THROMBIN                                                       
+REMARK 900 RELATED ID: 2HPP   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH D-PHE-PRO-ARG -                          
+REMARK 900 CHLOROMETHYLKETONE (PPACK) CHLOROMETHYLKETONE REPLACED BY A          
+REMARK 900 METHYLENE GROUP AND BOVINE PROTHROMBIN FRAGMENT 2                    
+REMARK 900 RELATED ID: 2HPQ   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH D-PHE-PRO-ARG -                          
+REMARK 900 CHLOROMETHYLKETONE (PPACK) CHLOROMETHYLKETONE REPLACED BY A          
+REMARK 900 METHYLENE GROUP AND HUMAN PROTHROMBIN FRAGMENT 2                     
+REMARK 900 RELATED ID: 2THF   RELATED DB: PDB                                   
+REMARK 900 STRUCTURE OF HUMAN ALPHA-THROMBIN Y225F MUTANT BOUND TO D-           
+REMARK 900 PHE-PRO-ARG- CHLOROMETHYLKETONE                                      
+REMARK 900 RELATED ID: 3HAT   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEXED WITH HIRUGEN AND FPAM                       
+REMARK 900 (FIBRINOPEPTIDE A MIMIC)                                             
+REMARK 900 RELATED ID: 3HTC   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH RECOMBINANT HIRUDIN (VARIANT 2,          
+REMARK 900 LYS 47)                                                              
+REMARK 900 RELATED ID: 4HTC   RELATED DB: PDB                                   
+REMARK 900 ALPHA-THROMBIN COMPLEX WITH RECOMBINANT HIRUDIN (VARIANT 2,          
+REMARK 900 LYS 47)                                                              
+REMARK 900 RELATED ID: 4THN   RELATED DB: PDB                                   
+REMARK 900 THE CRYSTAL STRUCTURE OF ALPHA-THROMBIN- HIRUNORM IV                 
+REMARK 900 COMPLEX REVEALS A NOVEL SPECIFICITY SITE RECOGNITION MODE.           
+REMARK 900 RELATED ID: 5GDS   RELATED DB: PDB                                   
+REMARK 900 HIRUNORMS ARE TRUE HIRUDIN MIMETICS. THE CRYSTAL STRUCTURE           
+REMARK 900 OF HUMAN ALPHA-THROMBIN: HIRUNORM V COMPLEX                          
+REMARK 900 RELATED ID: 7KME   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN ALPHA-THROMBIN INHIBITED WITH             
+REMARK 900 SEL2711.                                                             
+REMARK 900 RELATED ID: 8KME   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN ALPHA-THROMBIN INHIBITED WITH             
+REMARK 900 SEL2770.                                                             
+REMARK 900 RELATED ID: 2BVS   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN ALPHA-THROMBIN COMPLEXED WITH             
+REMARK 900 FRAGMENT-BASED SMALL MOLECULES OCCUPYING THE S1 POCKET.              
+REMARK 900 RELATED ID: 2BVX   RELATED DB: PDB                                   
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN ALPHA-THROMBIN COMPLEXED WITH             
+REMARK 900 FRAGMENT-BASED SMALL MOLECULES OCCUPYING THE S1 POCKET.              
+DBREF  2BVR H   16   146  UNP    P00734   THRB_HUMAN     364    509             
+DBREF  2BVR H  149   247  UNP    P00734   THRB_HUMAN     516    622             
+DBREF  2BVR I    9    19  UNP    P09945   HIRV2_HIRME     61     71             
+DBREF  2BVR L   -5    17  UNP    P00734   THRB_HUMAN     328    363             
+SEQADV 2BVR ALA I   19  UNP  P09945    LEU    71 CONFLICT                       
+SEQRES   1 H  252  ILE VAL GLU GLY SER ASP ALA GLU ILE GLY MET SER PRO          
+SEQRES   2 H  252  TRP GLN VAL MET LEU PHE ARG LYS SER PRO GLN GLU LEU          
+SEQRES   3 H  252  LEU CYS GLY ALA SER LEU ILE SER ASP ARG TRP VAL LEU          
+SEQRES   4 H  252  THR ALA ALA HIS CYS LEU LEU TYR PRO PRO TRP ASP LYS          
+SEQRES   5 H  252  ASN PHE THR GLU ASN ASP LEU LEU VAL ARG ILE GLY LYS          
+SEQRES   6 H  252  HIS SER ARG THR ARG TYR GLU ARG ASN ILE GLU LYS ILE          
+SEQRES   7 H  252  SER MET LEU GLU LYS ILE TYR ILE HIS PRO ARG TYR ASN          
+SEQRES   8 H  252  TRP ARG GLU ASN LEU ASP ARG ASP ILE ALA LEU MET LYS          
+SEQRES   9 H  252  LEU LYS LYS PRO VAL ALA PHE SER ASP TYR ILE HIS PRO          
+SEQRES  10 H  252  VAL CYS LEU PRO ASP ARG GLU THR ALA ALA SER LEU LEU          
+SEQRES  11 H  252  GLN ALA GLY TYR LYS GLY ARG VAL THR GLY TRP GLY ASN          
+SEQRES  12 H  252  LEU LYS GLU LYS GLY GLN PRO SER VAL LEU GLN VAL VAL          
+SEQRES  13 H  252  ASN LEU PRO ILE VAL GLU ARG PRO VAL CYS LYS ASP SER          
+SEQRES  14 H  252  THR ARG ILE ARG ILE THR ASP ASN MET PHE CYS ALA GLY          
+SEQRES  15 H  252  TYR LYS PRO ASP GLU GLY LYS ARG GLY ASP ALA CYS GLU          
+SEQRES  16 H  252  GLY ASP SER GLY GLY PRO PHE VAL MET LYS SER PRO PHE          
+SEQRES  17 H  252  ASN ASN ARG TRP TYR GLN MET GLY ILE VAL SER TRP GLY          
+SEQRES  18 H  252  GLU GLY CYS ASP ARG ASP GLY LYS TYR GLY PHE TYR THR          
+SEQRES  19 H  252  HIS VAL PHE ARG LEU LYS LYS TRP ILE GLN LYS VAL ILE          
+SEQRES  20 H  252  ASP GLN PHE GLY GLU                                          
+SEQRES   1 I   11  GLY ASP PHE GLU GLU ILE PRO GLU GLU TYS ALA                  
+SEQRES   1 L   36  THR PHE GLY SER GLY GLU ALA ASP CYS GLY LEU ARG PRO          
+SEQRES   2 L   36  LEU PHE GLU LYS LYS SER LEU GLU ASP LYS THR GLU ARG          
+SEQRES   3 L   36  GLU LEU LEU GLU SER TYR ILE ASP GLY ARG                      
+MODRES 2BVR TYS I   18  TYR  O-SULFO-L-TYROSINE                                 
+HET    TYS  I  18      16                                                       
+HET    4CP  H1246      27                                                       
+HETNAM     TYS O-SULFO-L-TYROSINE                                               
+HETNAM     4CP 2-[2-(4-CHLORO-PHENYLSULFANYL)-ACETYLAMINO]-3-(4-                
+HETNAM   2 4CP  GUANIDINO-PHENYL)-PROPIONAMIDE                                  
+FORMUL   2  TYS    C9 H11 N O6 S                                                
+FORMUL   4  4CP    C18 H20 CL N5 O2 S                                           
+FORMUL   5  HOH   *454(H2 O)                                                    
+SSBOND   1 CYS H   42    CYS H   58                          1555   1555  2.29  
+SSBOND   2 CYS H  122    CYS L    1                          1555   1555  2.34  
+SSBOND   3 CYS H  168    CYS H  182                          1555   1555  2.33  
+SSBOND   4 CYS H  191    CYS H  220                          1555   1555  2.43  
+CISPEP   1 SER H   37    PRO H   37A         0        -0.53                     
+SITE     1 AC1 13 TRP H  60D ALA H 190  CYS H 191  GLU H 192                    
+SITE     2 AC1 13 VAL H 213  TRP H 215  GLY H 216  GLY H 219                    
+SITE     3 AC1 13 CYS H 220  GLY H 226  PHE H 227  HOH H2372                    
+SITE     4 AC1 13 HOH H2373                                                     
+SITE     1 AC2 27 PHE H  34  LEU H  65  ARG H  73  THR H  74                    
+SITE     2 AC2 27 ARG H  75  TYR H  76  GLU H  80  LYS H  81                    
+SITE     3 AC2 27 ILE H  82  HOH H2134  HOH H2141  HOH H2144                    
+SITE     4 AC2 27 HOH H2156  HOH I2001  HOH I2002  HOH I2003                    
+SITE     5 AC2 27 HOH I2004  HOH I2006  HOH I2007  HOH I2008                    
+SITE     6 AC2 27 HOH I2009  HOH I2010  HOH I2012  HOH I2013                    
+SITE     7 AC2 27 HOH I2015  HOH I2016  HOH I2017                               
+CRYST1   70.322   71.702   72.539  90.00 100.28  90.00 C 1 2 1       4          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.014220  0.000000  0.002579        0.00000                         
+SCALE2      0.000000  0.013947  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.014011        0.00000                         
+HETATM    1  C1  4CP H1246      16.454  -9.539  12.224  1.00 15.61           C
+ANISOU    1  C1  4CP H1246     5736   1149   2569   -695  -2982    428       C
+HETATM    2  C2  4CP H1246      15.444  -9.571  13.240  1.00 16.95           C
+ANISOU    2  C2  4CP H1246     2768   2466   3944   -194  -1610   -605       C
+HETATM    3  C3  4CP H1246      15.438 -10.626  14.212  1.00 17.57           C
+ANISOU    3  C3  4CP H1246     2400   2146   3255   -328   -651   -467       C
+HETATM    4  C4  4CP H1246      16.446 -11.651  14.166  1.00 17.78           C
+ANISOU    4  C4  4CP H1246     2064   1717   3173   -193   -841    376       C
+HETATM    5  C5  4CP H1246      17.456 -11.611  13.140  1.00 17.04           C
+ANISOU    5  C5  4CP H1246     2649   2062   2927    -43    -23     -1       C
+HETATM    6  C6  4CP H1246      17.460 -10.559  12.172  1.00 16.86           C
+ANISOU    6  C6  4CP H1246     2286   2186   3367    -94  -1261   -355       C
+HETATM    7 CL7  4CP H1246      16.464  -8.281  11.066  1.00 17.43          Cl
+ANISOU    7 CL7  4CP H1246     2391   2909   2108   -160   -321   -861      Cl
+HETATM    8  S8  4CP H1246      16.405 -12.920  15.370  1.00 20.42           S
+ANISOU    8  S8  4CP H1246     3324   2782   2952   -528   -681    409       S
+HETATM    9  C9  4CP H1246      16.694 -14.587  14.700  1.00 20.67           C
+ANISOU    9  C9  4CP H1246     2170   2310   2862      0    -93     -1       C
+HETATM   10  C10 4CP H1246      15.389 -15.274  14.320  1.00 21.59           C
+ANISOU   10  C10 4CP H1246     2597   6070   2309    540    -16    -17       C
+HETATM   11  O11 4CP H1246      15.454 -16.401  13.854  1.00 22.05           O
+ANISOU   11  O11 4CP H1246     2971   4852   3259    307     84    -58       O
+HETATM   12  N12 4CP H1246      14.132 -14.673  14.483  1.00 21.97           N
+ANISOU   12  N12 4CP H1246     2659   2541   3427  -1008   -524   -535       N
+HETATM   13  C13 4CP H1246      12.806 -15.277  14.135  1.00 21.94           C
+ANISOU   13  C13 4CP H1246     3686   1481   2664   -266    -39      7       C
+HETATM   14  C14 4CP H1246      12.113 -15.749  15.440  1.00 25.38           C
+ANISOU   14  C14 4CP H1246     3530   7862   2722   1214     49     50       C
+HETATM   15  C15 4CP H1246      12.831 -16.814  16.283  1.00 27.10           C
+ANISOU   15  C15 4CP H1246     2400   5176   3117  -1511   -160   -160       C
+HETATM   16  C16 4CP H1246      13.470 -16.411  17.510  1.00 28.70           C
+ANISOU   16  C16 4CP H1246     4776   2643   4569   -530      5     -5       C
+HETATM   17  C17 4CP H1246      14.149 -17.379  18.329  1.00 30.36           C
+ANISOU   17  C17 4CP H1246     4095   4750   4185    -30      0      0       C
+HETATM   18  C18 4CP H1246      14.201 -18.779  17.937  1.00 31.35           C
+ANISOU   18  C18 4CP H1246     4903   2560  14255  -1589   3211   -710       C
+HETATM   19  C19 4CP H1246      13.558 -19.168  16.702  1.00 30.13           C
+ANISOU   19  C19 4CP H1246     5705   4322   6348     13      2      0       C
+HETATM   20  C20 4CP H1246      12.876 -18.197  15.882  1.00 28.25           C
+ANISOU   20  C20 4CP H1246     3395   2657   8711   -162   1231   -126       C
+HETATM   21  N21 4CP H1246      14.864 -19.829  18.702  1.00 33.77           N
+ANISOU   21  N21 4CP H1246    15537  13411   5854      1  -2458      9       N
+HETATM   22  C22 4CP H1246      15.574 -19.796  19.936  1.00 35.34           C
+ANISOU   22  C22 4CP H1246    14346   5024  15726    535      0      0       C
+HETATM   23  N23 4CP H1246      15.752 -18.703  20.630  1.00 36.16           N
+ANISOU   23  N23 4CP H1246    11196   6608  22320   -960    -94      5       N
+HETATM   24  N24 4CP H1246      16.099 -20.980  20.420  1.00 36.16           N
+ANISOU   24  N24 4CP H1246     6908  10010  17373     31    -58      0       N
+HETATM   25  C25 4CP H1246      11.932 -14.232  13.428  1.00 21.37           C
+ANISOU   25  C25 4CP H1246     2906   1534   2258   -812    129   -100       C
+HETATM   26  O26 4CP H1246      12.302 -13.067  13.384  1.00 19.92           O
+ANISOU   26  O26 4CP H1246     2653   1681   2789   -794     40    542       O
+HETATM   27  N27 4CP H1246      10.726 -14.568  12.821  1.00 20.37           N
+ANISOU   27  N27 4CP H1246     4123   2937   2318  -1805     84   -140       N
+CONECT    1    2    6    7
+CONECT   10    9   11   12
+CONECT   13   12   14   25
+CONECT   14   13   15
+CONECT   15   14   16   20
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19   21
+CONECT   19   18   20
+CONECT    2    1    3
+CONECT   20   15   19
+CONECT   22   21   23   24
+CONECT   25   13   26   27
+CONECT    3    2    4
+CONECT    4    3    5    8
+CONECT    5    4    6
+CONECT    6    1    5
+CONECT    9    8   10
+CONECT    7    1
+CONECT   12   10   13
+CONECT   21   18   22
+CONECT   23   22
+CONECT   24   22
+CONECT   27   25
+CONECT   11   10
+CONECT   26   25
+CONECT    8    4    9
+END

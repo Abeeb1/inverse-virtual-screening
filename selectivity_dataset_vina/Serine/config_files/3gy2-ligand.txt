@@ -1,0 +1,7 @@
+receptor = receptor.pdbqt
+size_x = 15.122
+size_y = 19.349999999999998
+size_z = 18.424
+center_x = 0.25952380952380966
+center_y = 17.004285714285714
+center_z = 18.79709523809524

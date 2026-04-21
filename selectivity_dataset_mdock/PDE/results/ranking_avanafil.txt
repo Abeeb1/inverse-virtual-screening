@@ -1,0 +1,7 @@
+Target ID	MDock Score
+2qyn	-65.5600
+2qyk	-61.6830
+3tvx	-59.0370
+3shy	-55.4440
+3tge	-52.5310
+3hc8	-51.9400
