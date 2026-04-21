@@ -12,7 +12,7 @@ This work presents:
 2. A **systematic evaluation** of AutoDock Vina, MDock, and a machine learning scoring function (ΔVinaXGB) for IVS
 3. A **consensus scoring strategy** that further improves target enrichment
 
-![IVS Workflow](IVS.jpg)
+![IVS Workflow]
 
 ---
 
@@ -20,7 +20,7 @@ This work presents:
 
 In docking-based IVS, a query ligand is docked against every protein in a target library. Proteins are then ranked by their docking scores — higher-ranked proteins are predicted as more likely targets.
 
-![Workflow](workflow.jpg)
+![Workflow]
 
 **Pipeline steps:**
 - **Protein library preparation** — structures from sc-PDB; binding sites defined by co-crystallized ligand positions; solvents and ions removed with UCSF Chimera
