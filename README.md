@@ -1,17 +1,12 @@
 # Benchmark Datasets and Evaluation of Molecular Docking for Inverse Virtual Screening
 
-**Abeeb Ajibade\#, Xianjin Xu\#, Claire Guo, Xiaoqin Zou**
-*Department of Physics, Department of Biochemistry, Dalton Cardiovascular Research Center, and Institute for Data Science and Informatics, University of Missouri, Columbia, MO*
-
-\# These authors contributed equally to this work.
-
 ---
 
 ## Overview
 
 Molecular docking has achieved great success in traditional virtual screening — finding molecules that bind a known target. **Inverse virtual screening (IVS)** reverses this paradigm: given a bioactive molecule, IVS identifies which proteins it is most likely to bind across a large protein library. IVS is valuable for target identification, drug repositioning, side effect prediction, and toxicity studies.
 
-Despite widespread use, docking-based IVS methods had not been systematically evaluated prior to this work — largely due to the absence of a suitable benchmark. This project presents:
+This work presents:
 
 1. An **improved Drugs/sc-PDB benchmark** of 47 diverse FDA-approved drugs and 901 human proteins with experimentally determined 3D structures
 2. A **systematic evaluation** of AutoDock Vina, MDock, and a machine learning scoring function (ΔVinaXGB) for IVS
